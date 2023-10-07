@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan BTNG Web - Minggu 1</title>
+    <style>
+        html, body {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADING -->
+    <div id="heading"></div>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <!-- PARAGRAPH -->
+    <div id="paragraph"></div>
+    <p><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </i><br><br> <hr> <br><b>Quidem non consequuntur reiciendis laudantium, doloremque,</b> at sed nesciunt ea, praesentium accusantium quis nobis dolorem. Est magnam omnis, sed ratione maxime nostrum sapiente harum dignissimos soluta unde aspernatur laboriosam dolorum velit iure eligendi maiores facere odit consequuntur aut? <u>Aut nihil incidunt sunt?</u></p>
+    <!-- LIST -->
+    <div id="list"></div>
+    <p>unordered list</p>
+    <ul type="square">
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ul>
+    <ul type="disc">
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ul>
+    <ul type="circle">
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ul>
+    <p>ordered list</p>
+    <ol type="I">
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ol>
+    <ol type="i">
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ol>
+    <ol type="1">
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ol>
+    <ol type="A">
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ol>
+    <ol type="a">
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ol>
+    <p>description list</p>
+    <dl>
+        <dt>Judul Content</dt>
+        <dd>Isi Content</dd>
+        <dt>Judul Content</dt>
+        <dd>Isi Content</dd>
+    </dl>
+    <a href="https://www.instagram.com" target="_blank">instagram</a>
+    <a href="page1.html">page 1</a>
+    <a href="./pages/page2.html">page 2</a>
+    <a href="https://youtube.com" target="_blank">youtube</a>
+    <br>
+    <a href="#top">to top</a>
+    <a href="#bottom">to bottom</a>
+    <a href="#heading">heading</a>
+    <a href="#paragraph">paragraph</a>
+    <a href="#list">list</a>
+    <br>
+    <br>
+    <img src="./assets/images/f2a.jpg" alt="trettttreeeet" width="100%" height="200px" title="Neuron Activation">
+    <br>
+    <br>
+    <table border="1" cellpadding="20" cellspacing="40">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Prodi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Abdul Dudul</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Aramugam</td>
+                <td>Sistem Informasi</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ahmad Kasim</td>
+                <td>Animasi</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="/" method="get">
+        <div>
+            <label for="nama">Nama</label><br>
+            <input type="text" name="nama" id="nama">
+        </div>
+        <br>
+        <div>
+            <label for="prodi">Prodi</label><br>
+            <select name="prodi" id="prodi">
+                <option value="animasi">Animasi</option>
+                <option value="teknik_informatika">Teknik Informatika</option>
+                <option value="sistem_informasi">Sistem Informasi</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Gender</label><br>
+            <input type="radio" name="gender" id="lanang" >
+            <label for="lanang">lanang</label>
+            <input type="radio" name="gender" id="wedok" value="wedok">
+            <label for="wedok">wedok</label>
+        </div>
+        <div>
+            <label for="">Mengidentifikasi sebagai</label>
+            <input type="checkbox" name="identity" id="">
+            <label for="identity">Ambulance</label>
+        </div>
+        <br>
+        <div>
+            <label for="alamat">Alamat</label><br>
+            <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+</body>
+</html>
