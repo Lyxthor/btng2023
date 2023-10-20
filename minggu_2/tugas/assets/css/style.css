@@ -238,6 +238,7 @@ main .subscribe {
     box-shadow: 2px 2px 15px #6c757d18;
     box-sizing: border-box;
     background-image: linear-gradient(to top right, var(--chaotic-blue),  var(--neutral), var(--purple), var(--chaotic-purple));
+    background-attachment: fixed;
     border-radius: .8rem;
     color: white;
     font-family: kanit;
